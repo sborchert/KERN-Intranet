@@ -1,0 +1,19 @@
+base: 'https://kern-intranet.ddev.site/'
+errorHandling:
+  -
+    errorCode: 404
+    errorHandler: Page
+    errorContentSource: 't3://page?uid=14'
+languages:
+  -
+    title: German
+    enabled: true
+    languageId: 0
+    base: /
+    locale: de_DE.UTF-8
+    navigationTitle: German
+    flag: de
+    hreflang: de-DE
+    websiteTitle: 'KERN Intranet'
+rootPageId: 1
+websiteTitle: 'KERN Intranet'
